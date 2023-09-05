@@ -8,8 +8,10 @@ ul {
     color: #E5E7EB;
 }
 
-.navigator{
+.section.hero{
     background-color: #1F2937;
-    display: flex;
 }
 
+.navigator{
+    display: flex;
+}
