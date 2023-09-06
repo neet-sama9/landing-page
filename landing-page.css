@@ -10,6 +10,11 @@ ul {
     
 }
 
+ul.logo{
+    margin-right: auto;
+    padding: 0;
+}
+
 .section.hero{
     background-color: #1F2937;
 }
