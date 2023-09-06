@@ -25,14 +25,29 @@ h1{
 
 .intro{
     display: flex;
+    flex: 1;
 }
 
 img{
     max-width: 100%;
-    max-height: 200px;
+    max-height: 300px;
 }
 
 p{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.intro.text{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    max-width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5%;
 }
