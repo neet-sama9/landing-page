@@ -13,6 +13,8 @@ ul {
 ul.logo{
     margin-right: auto;
     padding: 0;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .section.hero{
@@ -74,6 +76,7 @@ button{
 .card-container{
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
 img.card{
@@ -81,4 +84,16 @@ img.card{
     border-color: #3882F6;
     border-radius: 30px;
     border-style: solid;
+}
+
+h1.dark {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
+    display: flex;
+    justify-content: center;
+}
+
+p.dark{
+    color: #777777;
 }
