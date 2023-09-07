@@ -70,3 +70,15 @@ button{
     border-radius: 5%;
     margin-top: 5px;
 }
+
+.card-container{
+    display: flex;
+    gap: 30px;
+}
+
+img.card{
+    border-width: 5px;
+    border-color: #3882F6;
+    border-radius: 30px;
+    border-style: solid;
+}
