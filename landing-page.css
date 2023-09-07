@@ -80,10 +80,11 @@ button{
 }
 
 img.card{
-    border-width: 5px;
+    border-width: 4px;
     border-color: #3882F6;
-    border-radius: 30px;
+    border-radius: 8%;
     border-style: solid;
+
 }
 
 h1.dark {
@@ -92,8 +93,16 @@ h1.dark {
     font-weight: extra-bold;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 p.dark{
     color: #777777;
+    display: flex;
+    justify-content: center;
 }
+
+.options{
+    padding: 70px 200px;
+}
+
