@@ -112,7 +112,8 @@ p.dark{
 
 q {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: light;
     color: #1F2937
 }
 
