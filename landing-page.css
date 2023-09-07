@@ -106,3 +106,17 @@ p.dark{
     padding: 70px 200px;
 }
 
+.section.quote{
+    background-color: #E5E7EB;
+}
+
+q {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937
+}
+
+p.quote{
+    font-weight: extra-bold;
+    color: #1F2937;
+}
