@@ -132,3 +132,14 @@ p.quote{
     display: flex;
     justify-content: flex-end;
 }
+
+.section.callto{
+    padding: 70px 200px;
+}
+
+.CTA{
+    background-color: #3882F6;
+    padding: 20px 40px;
+    display: flex;
+   
+}
