@@ -28,7 +28,7 @@ ul.logo{
 
 h1{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
     margin: 0;
 }
@@ -79,18 +79,25 @@ button{
     justify-content: center;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
 img.card{
     border-width: 4px;
     border-color: #3882F6;
     border-radius: 8%;
     border-style: solid;
-
+  
 }
 
 h1.dark {
     font-size: 36px;
     color: #1F2937;
-    font-weight: extra-bold;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -98,8 +105,7 @@ h1.dark {
 
 p.dark{
     color: #777777;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .options{
@@ -108,16 +114,21 @@ p.dark{
 
 .section.quote{
     background-color: #E5E7EB;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
 }
 
-q {
+p.main{
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     color: #1F2937
 }
 
 p.quote{
-    font-weight: extra-bold;
+    font-weight: bolder ;
     color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
