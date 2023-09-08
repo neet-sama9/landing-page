@@ -133,11 +133,11 @@ p.quote{
     justify-content: flex-end;
 }
 
-.section.callto{
+.section.CTA{
     padding: 70px 200px;
 }
 
-.CTA{
+.CTA-box{
     background-color: #3882F6;
     padding: 20px 40px;
     display: flex;
